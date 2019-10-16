@@ -15,7 +15,13 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">image: url(:/uiresource/OVC-win-home.png);</string>
+    <string notr="true">QWidget#centralwidget{
+image: url(:/uiresource/OVC-win-home.png);
+}
+
+
+
+</string>
    </property>
    <widget class="QPushButton" name="btn_close">
     <property name="geometry">
